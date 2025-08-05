@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+
+    <form id="survey-form">
+     <fieldset>
+        <label id="name-label" for="name">Name<input id="name" placeholder="David" name="name" type="text" required /></label>
+
+        <label id="email-label" for="email">Email <input id="email" placeholder="placeholder@gmail.com" name="email" type="email" required /></label>
+
+        <label id="number-label" for="age">Age (optional) <input id="number" placeholder="1-120" name="age" type="number" min="1" max="120" required /></label>
+        </fieldset>
+
+        <fieldset>
+         <label for="dropdown">which option best descrbies how you feel about  dogs?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select you)</option>
+            <option value="1">dog lover</option>
+            <option value="2">dog liker</option>
+            <option value="3">dog hater</option>
+            <option value="4">prefer not to say</option>
+            <option value="5">Other</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+        <legend>how likely to recommend dogs</legend>
+        <label for="definitly"> <input id="definitly" type="radio" name="recommend" class="inline" value="Definitly" checked /> Definitly</label>
+        <label for="Maybe"><input id="Maybe" type="radio" name="recommend" class="inline" value="Maybe"/> Maybe</label>
+
+        <label for="Never"><input id="Never" type="radio" name="recommend" class="inline" value="Never"/> Never</label>
+</fieldset>
+
+
+  <fieldset>
+    <legend>What's your favorite thing about dogs?</legend>
+
+    <label for="loyal">
+  <input id="loyal" type="checkbox" name="favorite" value="Loyal" class="inline" />
+  Loyal
+</label>
+
+<label for="playful">
+  <input id="playful" type="checkbox" name="favorite" value="Playful" class="inline" />
+  Playful
+</label>
+
+<label for="cute">
+  <input id="cute" type="checkbox" name="favorite" value="Cute" class="inline" />
+  Cute
+</label>
+
+<label for="friendly">
+  <input id="friendly" type="checkbox" name="favorite" value="Friendly" class="inline" />
+  Friendly
+</label>
+
+<label for="protective">
+  <input id="protective" type="checkbox" name="favorite" value="Protective" class="inline" />
+  Protective
+</label>
+
+<label for="smart">
+  <input id="smart" type="checkbox" name="favorite" value="Smart" class="inline" />
+  Smart
+</label>
+
+<label for="loving">
+  <input id="loving" type="checkbox" name="favorite" value="Loving" class="inline" />
+  Loving
+</label>
+    
+  </fieldset>
+
+
+
+  <fieldset>
+
+<label for="bio">anything you want to share:
+          <textarea id="share" name="share" rows="3" cols="30" placeholder="i love my dog David"></textarea>
+        </label>
+         </fieldset>
+  
+   <label for="submit">
+    <input id="submit" type="submit" value="submit"/>
+</label>
+
+      </form>
+    </body>
+    </html>
