@@ -31,11 +31,6 @@ A responsive and accessible survey form built with HTML5 and styled using CSS. T
 - Styling with CSS for responsive design and theming
 - Structuring HTML documents for usability and readability
 
-## Future Improvements
-
-- Add form validation with JavaScript
-- Implement backend integration to handle form submissions
-- Enhance UI/UX with animations or improved feedback on submission
 
 ## License
 
